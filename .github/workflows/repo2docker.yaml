@@ -1,7 +1,7 @@
 name: Build Notebook Container
 on: [push]
 jobs:
-  build:
+  build-and-push:
     runs-on: ubuntu-latest
     steps:
 
@@ -11,6 +11,7 @@ jobs:
     - name: update jupyter dependencies with repo2docker
       uses: jupyterhub/repo2docker-action@master
       with: # make sure username & password/token matches your registry
-        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        DOCKER_USERNAME: ${{ secrets.USERNAME }}
+        DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
         DOCKER_REGISTRY: "ghcr.io"
+        IMAGE_NAME : "nrdg/autofq-hub"
