@@ -29,6 +29,6 @@ dependencies:
   - statsmodels
   - xgboost
   - shap
+  - dipy
   - pip:
-    - git+https://github.com/yeatmanlab/pyAFQ.git@master
-    - git+https://github.com/dipy/dipy.git@master
+    - pyAFQ
