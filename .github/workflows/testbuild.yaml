@@ -1,4 +1,4 @@
-name: Build Notebook Container
+name: Test image build
 on: [pull_request]
 jobs:
   build-image-without-pushing:
