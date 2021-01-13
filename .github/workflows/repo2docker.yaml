@@ -12,6 +12,6 @@ jobs:
       uses: jupyterhub/repo2docker-action@master
       with: # make sure username & password/token matches your registry
         DOCKER_USERNAME: ${{ secrets.USERNAME }}
-        DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+        DOCKER_PASSWORD: ${{ secrets.PAT }}
         DOCKER_REGISTRY: "ghcr.io"
         IMAGE_NAME : "nrdg/autofq-hub"
