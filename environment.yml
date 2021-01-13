@@ -32,3 +32,4 @@ dependencies:
   - dipy
   - pip:
     - pyAFQ
+    - afqinsight
