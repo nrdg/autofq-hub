@@ -25,7 +25,7 @@ dependencies:
   - pip==19.2.3
   - xvfbwrapper
   - python-graphviz
-  - scikit-learn
+  - scikit-learn==0.24.1
   - statsmodels
   - xgboost
   - shap
