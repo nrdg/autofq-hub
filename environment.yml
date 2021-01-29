@@ -34,3 +34,4 @@ dependencies:
   - pip:
     - pyAFQ
     - afqinsight
+    - git+https://github.com/dhuppenkothen/entrofy.git@35b2482
