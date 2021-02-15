@@ -1,3 +1,2 @@
 jupyter labextension install -y --clean \
-        @jupyter-widgets/jupyterlab-manager \
-        dask-labextension@3.0.0 \
+        dask-labextension@3.0.0
