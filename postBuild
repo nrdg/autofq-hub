@@ -1,0 +1,2 @@
+jupyter labextension install -y --clean \
+        dask-labextension
