@@ -31,3 +31,6 @@ dependencies:
   - pip:
     - afqinsight
     - neuropythy
+    - ray[tune]
+    - tune-sklearn
+    - hyperopt
