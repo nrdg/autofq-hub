@@ -34,3 +34,4 @@ dependencies:
     - ray[tune]
     - tune-sklearn
     - hyperopt
+    - neurocombat
