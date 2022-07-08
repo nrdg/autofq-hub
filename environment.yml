@@ -5,3 +5,4 @@ dependencies:
     - afqinsight
     - neurocombat_sklearn
     - tensorflow-gpu
+    - ipykernel
