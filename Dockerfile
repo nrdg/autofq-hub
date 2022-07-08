@@ -1,5 +1,5 @@
 # Choose your desired base image
-FROM cschranz/gpu-jupyter:v1.4_cuda-11.0_ubuntu-20.04_python-only
+FROM cschranz/gpu-jupyter:v1.4_cuda-11.2_ubuntu-20.04_python-only
 
 # name your environment and choose the python version
 ARG conda_env=afqinsight
