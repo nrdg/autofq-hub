@@ -34,4 +34,5 @@ dependencies:
     - ray[tune]
     - tune-sklearn
     - hyperopt
-    - neurocombat
+    - neurocombat_sklearn
+    - tensorflow-gpu
